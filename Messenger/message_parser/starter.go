@@ -67,7 +67,6 @@ func main() {
 		case "echo":
 			// TODO: Handle echo message
 			// Reply with echo_ok containing the same echo value
-			reply := msg.Body["echo"]
 			body := make(map[string]interface{})
 
 			body["type"] = "echo_ok"
